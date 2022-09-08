@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Order</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/logo.png" width="100%" height="auto">
+		</div>
+		<div class="nav">
+			<a href="index.html">Home</a>
+			<a href="categories.html">Categories</a>
+			<a href="food.html">Food</a>
+			<a href="#">Contact</a>
+			
+		</div>
+	</header>
+	<section class="banner-container">
+		<h1 style="text-align: center;color: white;font-size: 30px;">Fill this form to confirm your order.</h1>
+		<div class="form-container">
+		<!-- 	<h1 style="text-align: center;color: white">Fill this form to confirm your order.</h1> -->
+		<form action="post">
+			<fieldset>
+				<legend>Selected Food</legend>
+				<div class="form-image">
+					<img src="images/menu-pizza.jpg" width="100%" height="auto">
+				</div>
+				<div class="food-menu-write">
+					<h2 style="margin: 0">Food title</h2>
+					<p class="food-price">$2.3</p>
+					<h4>Quantity</h4>
+					<input type="number" name="qty" value="1">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Delivery Details</legend>
+				<label>Full Name</label><br>
+				<input type="text" name="fname"><br>
+				<label>Phone Number</label><br>
+				<input type="tel" name="tel"><br>
+				<label>Email</label><br>
+				<input type="email" name="email"><br>
+				<label>Address</label><br>
+				<textarea >
+					
+				</textarea><br><br>
+				<a href="order.html" class="confirm">Confirm order</a>
+			</fieldset>
+		</form>
+		</div>
+	</section>
+</body>
+</html>
